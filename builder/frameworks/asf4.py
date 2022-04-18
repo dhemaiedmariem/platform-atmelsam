@@ -3,7 +3,7 @@ from os.path import isdir, join , isfile
 from SCons.Script import DefaultEnvironment
 
 env = DefaultEnvironment()
-env = DefaultEnvironment()
+
 platform = env.PioPlatform()
 board = env.BoardConfig()
 
