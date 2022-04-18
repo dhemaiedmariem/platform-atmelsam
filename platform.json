@@ -37,6 +37,10 @@
     "zephyr": {
       "package": "framework-zephyr",
       "script": "builder/frameworks/zephyr.py"
+    },
+    "Asf4": {
+      "package": "framework-asf4",
+      "script": "builder/frameworks/asf4.py"
     }
   },
   "packages": {
@@ -63,6 +67,12 @@
       "owner": "platformio",
       "version": "~1.8.11"
     },
+    "framework-asf4": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "https://github.com/dhemaiedmariem/fr-asf"
+    },  
     "framework-arduino-samd-adafruit": {
       "type": "framework",
       "optional": true,
