@@ -71,7 +71,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "https://github.com/dhemaiedmariem/fr-asf.git"
+      "version": "https://github.com/dhemaiedmariem/framework-asf4.git"
     },  
     "framework-arduino-samd-adafruit": {
       "type": "framework",
