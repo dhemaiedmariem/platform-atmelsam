@@ -104,14 +104,8 @@ env.Append(
              
 )    
 
-#
-# Target: Build Core Library
-#
+env.BuildSources(
+    join("$BUILD_DIR", "FrameworkAsf4"),
+    FRAMEWORK_DIR
+)
 
-libs = []
-
-libs.append(env.BuildLibrary(
-    join("$BUILD_DIR", "frameworkAsf4"),    
-))
-
-env.Append(LIBS=libs)
